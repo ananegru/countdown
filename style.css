@@ -55,6 +55,9 @@
     font-size: 4rem;
     padding: 0 .5rem;
     }
+    .hidden {
+        display: none;
+    }    
     .navbar {
         position: relative; /* Keep it at the top */
         width: 100%; /* Spans full width of the page */

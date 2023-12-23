@@ -34,6 +34,7 @@
                 document.getElementById("headline").innerText = "Yes it is time";
                 document.getElementById("countdown").style.display = "none";
                 document.getElementById("content").style.display = "block";
+                document.getElementById("content").classList.remove("hidden"); 
                 clearInterval(x);
             }
         }, 0);
