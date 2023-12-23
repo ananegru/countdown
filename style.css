@@ -103,52 +103,49 @@
     }
     /* Styles for mobile devices */
 @media screen and (max-width: 600px) {
-    /* Reset some styles for mobile */
     .logo {
         position: static; /* Remove fixed positioning */
         width: 20%; /* Set width to a percentage of the screen */
         height: auto; /* Keep aspect ratio */
         margin: 10px 0; /* Add some top and bottom margin */
     }
-
-    /* Adjust the navbar to be a flex container */
     .navbar {
         display: flex;
         flex-direction: column; /* Stack children vertically */
         align-items: center; /* Center children horizontally */
         justify-content: center; /* Center children vertically */
-        margin-bottom: 20px; /* Add some space below the navbar */
+        margin-bottom: 20px; 
     }
 
     h1 {
-        font-size: 6vw; /* Scale the font size based on viewport width */
-        margin: 10px 0; /* Add some top and bottom margin */
+        font-size: 6vw; 
+        margin: 10px 0; 
     }
 
-    /* Adjust the countdown size */
+    /* Adjust countdown size */
     #countdown {
-        font-size: 5vw; /* Scale font size with viewport width */
+        font-size: 5vw; 
     }
 
     #countdown ul {
-        padding: 0; /* Remove padding */
+        padding: 0; 
     }
 
     #countdown li {
-        padding: 5px; /* Add some padding */
+        padding: 5px; 
     }
 
     #countdown li span {
-        font-size: 10vw; /* Adjust font size based on viewport width */
+        font-size: 10vw; 
     }
 
     /* Style for the message below countdown */
     #message-below-countdown p {
-        font-size: 4vw; /* Adjust font size based on viewport width */
+        font-size: 4vw; 
     }
 
     /* Adjust the emoji sizes */
     .emoji span {
-        font-size: 8vw; /* Adjust emoji size based on viewport width */
+        font-size: 8vw; 
     }
 }
